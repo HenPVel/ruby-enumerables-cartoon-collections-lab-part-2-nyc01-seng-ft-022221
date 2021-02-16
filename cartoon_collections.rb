@@ -1,7 +1,7 @@
- planeteer_calls= ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+# planeteer_calls= ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 # #planeteer_calls= ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
 #
-require 'pry'
+#require 'pry'
 
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
@@ -39,7 +39,7 @@ def find_valid_calls(planeteer_calls)
     p x
 
       if x==true
-          binding.pry
+          #binding.pry
         return i
         break
 
@@ -51,4 +51,4 @@ def find_valid_calls(planeteer_calls)
 
 end
 
-puts find_valid_calls(planeteer_calls)
+#puts find_valid_calls(planeteer_calls)
