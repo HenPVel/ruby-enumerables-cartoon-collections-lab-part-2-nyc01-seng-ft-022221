@@ -35,20 +35,5 @@ def find_valid_calls(planeteer_calls)
 
   for i in valid_calls do
     x=planeteer_calls.find{|i|planeteer_calls.include?(i)}
-p x
-
-
-      if x
-          #binding.pry
-        return i
-        break
-
-      else return nil
-        break
-
-      end
-  end
 
 end
-
-p find_valid_calls(planeteer_calls)
