@@ -36,7 +36,7 @@ def find_valid_calls(planeteer_calls)
   for i in valid_calls do
     x=planeteer_calls.find{|i|planeteer_calls.include? i}
     p x
-p x==true
+p x==false
 
       if x==true
           #binding.pry
