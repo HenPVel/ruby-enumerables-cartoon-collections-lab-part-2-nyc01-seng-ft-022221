@@ -38,7 +38,7 @@ def find_valid_calls(planeteer_calls)
     p x
 p x==false
 
-      if x==true
+      if x
           #binding.pry
         return i
         break
