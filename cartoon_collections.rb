@@ -1,4 +1,4 @@
-# planeteer_calls= ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+ planeteer_calls= ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 # #planeteer_calls= ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
 #
 #require 'pry'
@@ -51,4 +51,4 @@ def find_valid_calls(planeteer_calls)
 
 end
 
-#puts find_valid_calls(planeteer_calls)
+puts find_valid_calls(planeteer_calls)
